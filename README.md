@@ -165,26 +165,3 @@ required recommendation questions, including the association-vs-causation discus
 
 ---
 
-## Repository Structure
-
-```text
-part3_regression_insights/
-├── data/
-│   └── business_regression_data.xlsx       # Original dataset, unmodified
-├── analysis/
-│   ├── regression_workbook.xlsx             # 7 sheets: raw data -> cleaned -> dummies ->
-│   │                                         # simple regressions -> multiple regressions ->
-│   │                                         # predictions/residuals -> model comparison
-│   ├── model_comparison.md
-│   └── residual_analysis.md
-├── outputs/
-│   ├── regression_summary.xlsx              # Self-contained model comparison table
-│   ├── final_recommendation.md
-│   └── model_equations.md
-├── screenshots/
-│   ├── simple_regression_output.png
-│   ├── multiple_regression_output.png
-│   ├── residuals_preview.png
-│   └── model_comparison_preview.png
-└── README.md
-```
